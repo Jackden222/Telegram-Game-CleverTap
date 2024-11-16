@@ -1,0 +1,52 @@
+.progress-gradient {
+  background: linear-gradient(to right, #90ef89, #d692dd, #726edd);
+}
+
+.progress-gradient-energy {
+  background: linear-gradient(to right, #726edd, #90ef89, #d692dd);
+}
+
+
+/* Плавное исчезновение и появление контента */
+.page-content {
+    position: relative;
+  }
+  
+  .fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+  }
+  
+
+/* Add to your main.css or wherever you define global styles */
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+}
+
+.click-animation {
+  position: absolute;
+  animation: moveUp 1s ease-out forwards;
+}
+
+  
