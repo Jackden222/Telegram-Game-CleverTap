@@ -10,7 +10,7 @@
 заходим в редактор кода открываем консоль и клонируем репозиторий в свою папку
 
 ```
-git clone https://github.com/Jackden222/tests.git
+git clone https://github.com/Jackden222/Telegram-Game-CleverTap.git
 ```
 
 Устанавливаем пакетный менеджер 
